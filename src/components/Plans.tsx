@@ -1,5 +1,5 @@
 import { PricingCard } from "./PricingCard";
-import type { PricingPlan } from "./PricingCard";
+import type { PricingPlan } from "./types/pricing";
 
 export function Plans() {
     const plans: PricingPlan[] = [
@@ -125,10 +125,10 @@ export function Plans() {
             ],
         },
 
-    ];
+    ] as unknown as PricingPlan[];
 
     return (
-        <div className="container flex items-center justify-center mx-auto">
+        <div id="planos" className="container flex items-center justify-center mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                 {plans.map((plan) => (
                     <PricingCard
