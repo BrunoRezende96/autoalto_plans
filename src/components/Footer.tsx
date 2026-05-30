@@ -27,13 +27,14 @@ export function Footer() {
             <h4 className="font-bold mb-4 text-white">Planos</h4>
 
             <ul className="space-y-2 text-sm text-zinc-400">
-              <li className="hover:text-white cursor-pointer">Starter</li>
-              <li className="hover:text-white cursor-pointer">Básico</li>
-              <li className="hover:text-white cursor-pointer">Amigo</li>
-              <li className="hover:text-red-500 cursor-pointer">Super Amigo</li>
-              <li className="hover:text-white cursor-pointer">Parceiro</li>
-              <li className="hover:text-white cursor-pointer">VIP</li>
-              <li className="hover:text-white cursor-pointer">Agência</li>
+              <li className="hover:text-white cursor-pointer">Arrancada</li>
+              <li className="hover:text-white cursor-pointer">Aceleração</li>
+              <li className="hover:text-white cursor-pointer">Alta Velocidade</li>
+              <li className="hover:text-red-500 cursor-pointer">Velocidade Máxima</li>
+              <li className="hover:text-white cursor-pointer">Nitro</li>
+              <li className="hover:text-white cursor-pointer">Turbo</li>
+              <li className="hover:text-white cursor-pointer">Pole Position</li>
+              <li className="hover:text-white cursor-pointer">Campeão</li>
             </ul>
           </div>
 
