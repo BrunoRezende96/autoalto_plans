@@ -11,12 +11,9 @@ export function Footer() {
           {/* Coluna 1 - Marca */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 bg-[#8B0000] rounded flex items-center justify-center shadow-[0_0_12px_rgba(139,0,0,0.8)]">
-                <Car size={18} className="text-white" />
-              </div>
 
               <span className="font-bold text-xl">
-                Auto<span className="text-[#8B0000]">Drive</span>
+                <img src="/logo.png" alt="Logo" className="h-8" />
               </span>
             </div>
 
