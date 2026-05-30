@@ -32,12 +32,8 @@ export function Header() {
           onClick={() => scrollToSection("home")}
           className="flex items-center gap-2"
         >
-          <div className="w-8 h-8 bg-[#8B0000] rounded flex items-center justify-center shadow-[0_0_12px_rgba(139,0,0,0.8)]">
-            <Car size={18} className="text-white" />
-          </div>
-
-          <span className="text-white font-bold text-xl tracking-tight">
-            Auto<span className="text-[#8B0000]">Drive</span>
+          <span className="text-white font-bold text-xl tracking-tight hover:scale-105 transition-transform duration-200">
+            <img src="/logo.png" alt="Logo" className="h-8" />
           </span>
         </button>
 
