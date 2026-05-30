@@ -2,7 +2,7 @@ import { Car, Mail, Phone } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-black border-t border-zinc-900 text-white">
+    <footer className="bg-black border-t border-zinc-900 text-red-500">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-16">
 
         {/* Grid 4 colunas */}
@@ -24,35 +24,35 @@ export function Footer() {
 
           {/* Coluna 2 - Planos */}
           <div>
-            <h4 className="font-bold mb-4 text-white">Planos</h4>
+            <h4 className="font-bold mb-4 text-red-500">Planos</h4>
 
             <ul className="space-y-2 text-sm text-zinc-400">
-              <li className="hover:text-white cursor-pointer">Arrancada</li>
-              <li className="hover:text-white cursor-pointer">Aceleração</li>
-              <li className="hover:text-white cursor-pointer">Alta Velocidade</li>
+              <li className="hover:text-red-500 cursor-pointer">Arrancada</li>
+              <li className="hover:text-red-500 cursor-pointer">Aceleração</li>
+              <li className="hover:text-red-500 cursor-pointer">Alta Velocidade</li>
               <li className="hover:text-red-500 cursor-pointer">Velocidade Máxima</li>
-              <li className="hover:text-white cursor-pointer">Nitro</li>
-              <li className="hover:text-white cursor-pointer">Turbo</li>
-              <li className="hover:text-white cursor-pointer">Pole Position</li>
-              <li className="hover:text-white cursor-pointer">Campeão</li>
+              <li className="hover:text-red-500 cursor-pointer">Nitro</li>
+              <li className="hover:text-red-500 cursor-pointer">Turbo</li>
+              <li className="hover:text-red-500 cursor-pointer">Pole Position</li>
+              <li className="hover:text-red-500 cursor-pointer">Campeão</li>
             </ul>
           </div>
 
           {/* Coluna 3 - Empresa */}
           <div>
-            <h4 className="font-bold mb-4 text-white">Empresa</h4>
+            <h4 className="font-bold mb-4 text-red-500">Empresa</h4>
 
             <ul className="space-y-2 text-sm text-zinc-400">
-              <li className="hover:text-white cursor-pointer">Sobre nós</li>
-              <li className="hover:text-white cursor-pointer">Como funciona</li>
-              <li className="hover:text-white cursor-pointer">Depoimentos</li>
-              <li className="hover:text-white cursor-pointer">Contato</li>
+              <li className="hover:text-red-500 cursor-pointer">Sobre nós</li>
+              <li className="hover:text-red-500 cursor-pointer">Como funciona</li>
+              <li className="hover:text-red-500 cursor-pointer">Depoimentos</li>
+              <li className="hover:text-red-500 cursor-pointer">Contato</li>
             </ul>
           </div>
 
           {/* Coluna 4 - Contato */}
           <div>
-            <h4 className="font-bold mb-4 text-white">Contato</h4>
+            <h4 className="font-bold mb-4 text-red-500">Contato</h4>
 
             <div className="space-y-3 text-sm text-zinc-400">
               <div className="flex items-center gap-2">
